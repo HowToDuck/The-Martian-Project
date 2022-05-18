@@ -62,20 +62,35 @@
       <h1>Registration</h1>
 
       <div class="row">
-        <div class="col">
+        <div class="col-md">
           <p>
             With all of the essentials of the Mars settlement finished, we're
-            finally ready to invite civilians onboard Hermes 5 to populate the
-            Mars settlement.
+            finally ready to invite civilians onboard Hermes 5 to relocate to
+            the Mars settlement.
           </p>
           <p>
-            Hermes 5 will consist of 7 official crew and 50 civilians. For the
-            duration of the 5 month voyage civilians will be kept in cryogenesis
-            and be awaken on arrival.
+            Hermes 5 will be lead by Commander Marshall and his crew. 150
+            civilian's will be suspended in cryogenesis for the 5 month expected
+            travel and be awaken on arrival.
           </p>
+          "
+          <img src="assets/earth.jpg" alt="" height="300" width="450" />
         </div>
-        <div class="col">
+        <div class="col-md">
           <form>
+            <h2>Registration Form</h2>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" class="form-control" placeholder="Full Name" />
+            </div>
+            <div class="form-group">
+              <label for="occupation">Occupation</label>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Occupation"
+              />
+            </div>
             <div class="form-group">
               <label for="exampleInputEmail1">Email address</label>
               <input
@@ -85,28 +100,29 @@
                 aria-describedby="emailHelp"
                 placeholder="Enter email"
               />
-              <small id="emailHelp" class="form-text text-muted"
-                >We'll never share your email with anyone else.</small
-              >
             </div>
             <div class="form-group">
-              <label for="exampleInputPassword1">Password</label>
+              <label for="number">Contact Number</label>
               <input
-                type="password"
+                type="text"
                 class="form-control"
-                id="exampleInputPassword1"
-                placeholder="Password"
+                placeholder="(xxx)-xxx-xxxx"
               />
+            </div>
+            <div class="form-group">
+              <label for="notes">Comments & Additional Information</label>
+              <textarea class="form-control"></textarea>
             </div>
             <div class="form-group form-check">
               <input
                 type="checkbox"
                 class="form-check-input"
                 id="exampleCheck1"
+                required
               />
               <label class="form-check-label" for="exampleCheck1"
-                >Check me out</label
-              >
+                >I confirm the information above is correct and truthful
+              </label>
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
           </form>
