@@ -1,4 +1,67 @@
+html {
+  height: 100%;
+  background: radial-gradient(ellipse at bottom, #1b2735 50%, #090a0f 100%);
+}
+
 body {
   margin-top: 50px;
+  background: radial-gradient(ellipse at bottom, #1b2735 50%, #090a0f 100%);
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  text-align: center;
+  color: #fff;
+}
+
+h1 {
+  padding: 1.5rem;
+}
+
+h3,
+h4 {
+  color: #000;
+}
+
+label {
+  color: white;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+img .scenic {
+  -webkit-box-shadow: 5px 5px 5px black;
+          box-shadow: 5px 5px 5px black;
+}
+
+img.grayscale {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+img.grayscale:hover {
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+}
+
+#frontimage {
+  margin-bottom: 1rem;
+}
+
+.stars {
+  width: 5px;
+  height: 5px;
+  background: transparent;
+  -webkit-box-shadow: 100px 100px #000;
+          box-shadow: 100px 100px #000;
 }
 /*# sourceMappingURL=main.css.map */
